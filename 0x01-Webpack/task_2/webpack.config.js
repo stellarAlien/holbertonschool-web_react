@@ -6,12 +6,13 @@ module.exports = {
     output: {
       filename: 'bundle.js',
       path: path.resolve(__dirname, "public"),
-      performance: {
-        hints: false,
-        maxEntrypointSize: 512000,
-        maxAssetSize: 512000
     },
-    },
+    
+    performance: {
+      hints: false,
+      maxEntrypointSize: 512000,
+      maxAssetSize: 512000
+  },
     module: {
     rules: [{
     test: /\.css$/i,
