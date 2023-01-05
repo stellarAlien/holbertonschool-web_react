@@ -5,7 +5,7 @@ let count = 0;
 
 function update_counter(){
     count ++;
-    $('#count').text(`${count} clicks on the button`) ;
+    $('#count').text(`${count} clicks on the button`);
 }
 
 const $button = $('<button>Click here to get started</button>').on(
