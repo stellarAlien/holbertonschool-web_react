@@ -1,4 +1,4 @@
-import { Immutable } from 'immutable';
+import Immutable  from 'immutable';
 
 function accessImmutableObject(object, array) {
   if (!array.length) { return undefined; }
